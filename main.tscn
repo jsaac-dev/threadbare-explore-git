@@ -4,6 +4,7 @@
 [ext_resource type="TileSet" uid="uid://bmkax0b814rmy" path="res://spaces/tileset-a.tres" id="2_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://cswheshouik14" path="res://rules_goals/game_logic.tscn" id="3_xbkvd"]
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="4_2mg6t"]
+[ext_resource type="Texture2D" uid="uid://bd35e813ncyqj" path="res://assets/Key_Item.png" id="4_w48qg"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_u7hr5"]
 [ext_resource type="PackedScene" uid="uid://jt80gv02u4f2" path="res://hud.tscn" id="6_mp7wy"]
 [ext_resource type="Texture2D" uid="uid://la84y8l54pq0" path="res://assets/Books_1.png" id="7_w48qg"]
@@ -102,7 +103,7 @@ tile_set = ExtResource("2_ycdy4")
 [node name="Book1" parent="Books" unique_id=2139970442 instance=ExtResource("5_u7hr5")]
 position = Vector2(512, -64)
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("7_w48qg")
+texture = ExtResource("4_w48qg")
 
 [node name="Book2" parent="Books" unique_id=1687872310 instance=ExtResource("5_u7hr5")]
 position = Vector2(1550, -1437)
